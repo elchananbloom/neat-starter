@@ -1,10 +1,10 @@
 ---
 items:
-  - text: Menu One
+  - text: Who We Are
+    url: "/about"
+  - text: What We Do
     url: "#"
-  - text: Menu Two
-    url: "#"
-  - text: Menu Three
+  - text: Our Work
     url: "#"
   - text: Blog
     url: "/blog"
