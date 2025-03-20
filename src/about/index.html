@@ -1,9 +1,9 @@
+---
+layout: about
+title: "About Us"
+---
 
-<html>
-<head>
-    <title>About Us</title>
-</head>
-<body>
+<section class="mt-15">
     <div class="container max-w-4xl mt-6 px-6">
         <div class="pb-5 mb-5 border-b border-gray-100">
             <h1 class="font-bold text-5xl">About Us</h1>
@@ -11,11 +11,16 @@
                 <time>2022-01-01 by <a href="#">Author Name</a></time>
             </p>
         </div>
+        <!-- temp data -->
+        <div class="company-info my-4 mx-auto">
+            <h2 class="text-3xl font-semibold">Company Information</h2>
+            <p><strong>Company:</strong> {{ temp.company }}</p>
+            <p><strong>Address:</strong> {{ temp.address }}, {{ temp.city }}, {{ temp.state }} {{ temp.zip }}</p>
+        </div>
         <article class="prose lg:prose-xl my-4 mx-auto">
             <p>Welcome to our website! We are dedicated to providing the best service possible.</p>
             <p>Our team is composed of experienced professionals who are passionate about their work.</p>
             <p>Thank you for visiting us!</p>
         </article>
     </div>
-</body>
-</html>
+</section>
